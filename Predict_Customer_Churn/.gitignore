@@ -58,3 +58,13 @@ images/results/*
 
 # Exceptions
 !data/bank_data.csv
+
+# Additional sensitive files
+*config.json
+*secrets*
+*.pem
+*.key
+*.cert
+*credential*
+.env*
+.aws/
