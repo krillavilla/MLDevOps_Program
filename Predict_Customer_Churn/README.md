@@ -1,75 +1,119 @@
-# Predict Customer Churn with Clean Code
+# Predict Customer Churn
 
-## Project Overview
-In this project, I will identify credit card customers who are most likely to churn. The goal is to implement best coding and engineering practices while developing a machine learning package that:
-- Follows **PEP8 coding standards**
-- Is **modular, documented, and tested**
-- Can be run **interactively or from the command-line interface (CLI)**
+- Project **Predict Customer Churn** of ML DevOps Engineer Nanodegree Udacity
 
-This project helps me practice **testing, logging, and code refactoring**, which are crucial for maintaining production-level machine learning applications.
+## Project Description
+This project implements a machine learning model to identify credit card customers that are most likely to churn. The project includes a Python package for a machine learning project that follows coding (PEP8) and engineering best practices for implementing software (modular, documented, and tested).
 
-## File Structure
+The project contains a library of functions `churn_library.py` that implements the ML pipeline, and a testing file `churn_script_logging_and_tests.py` that tests the functions and logs any errors.
+
+## Files and Data Description
 ```
 .
-├── Guide.ipynb                          # Getting started and troubleshooting tips
-├── churn_notebook.ipynb                 # Provided: Code to be refactored
-├── churn_library.py                      # ToDo: Define the functions
-├── churn_script_logging_and_tests.py    # ToDo: Implement tests and logging
-├── README.md                             # ToDo: Project documentation
-├── data                                  # Folder containing the dataset
-│   └── bank_data.csv                     # Dataset for churn prediction
-├── images                                # Folder storing EDA results
-│   ├── eda
-│   └── results
-├── logs                                  # Folder for logs
-└── models                                # Folder storing trained models
+├── Guide.ipynb                     # Getting started guide notebook
+├── churn_notebook.ipynb           # Contains the original notebook
+├── churn_library.py              # Main library of functions
+├── churn_script_logging_and_tests.py    # Testing and logging functions
+├── README.md                     # Project documentation
+├── requirements.txt              # Required packages
+├── data/                        # Data directory
+│   └── bank_data.csv           # Dataset used for the project
+├── images/                      # Store all generated images
+│   ├── eda/                    # Exploratory Data Analysis plots
+│   └── results/                # Model results plots
+├── logs/                       # Store all logs
+│   └── churn_library.log      # Logging results
+└── models/                     # Store model files
+    ├── logistic_model.pkl     # Logistic Regression model
+    └── rfc_model.pkl          # Random Forest model
 ```
 
-## Running the Project
-### 1. Install Dependencies
-I need to make sure all required dependencies are installed. I can do this using:
+## Installation
+
+1. Clone this repository:
+```bash
+git clone https://github.com/your-username/predict-customer-churn.git
+cd predict-customer-churn
+```
+
+2. Create and activate a virtual environment:
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
+
+3. Install required packages:
 ```bash
 pip install -r requirements.txt
 ```
 
-### 2. Run Churn Library
-To execute the churn library and generate predictions, I run:
+## Running Files
+
+The project contains two main files that can be executed:
+
+### 1. churn_library.py
+This is the main library containing all functions needed for the churn prediction model. While it's primarily meant to be imported as a module, you can run it directly:
+
 ```bash
-ipython churn_library.py
+python churn_library.py
 ```
 
-### 3. Run Tests and Logging
-I can ensure that testing and logging are functional using:
+This will:
+- Load and analyze the data
+- Perform EDA and save visualizations
+- Engineer features
+- Train and save models
+- Generate model performance plots
+
+### 2. churn_script_logging_and_tests.py
+This file contains unit tests for all functions in churn_library.py. Run it to verify everything works correctly:
+
 ```bash
-ipython churn_script_logging_and_tests.py
+python churn_script_logging_and_tests.py
 ```
 
-This will generate logs in the `/logs` folder and validate the correctness of functions.
+This will:
+- Test all functions in churn_library.py
+- Log success/failure for each test in ./logs/churn_library.log
+- Generate necessary images and model files
 
-## Code Quality Standards
-To maintain clean and efficient code, I will follow these best practices:
-- **Style Guide:** Format code using **PEP8**.
+## Expected Outputs
+
+After running the files, you should see:
+
+1. In `./images/eda/`:
+   - Churn distribution plot
+   - Correlation heatmap
+   - Other EDA visualizations
+
+2. In `./images/results/`:
+   - ROC curves plot
+   - Feature importance plot
+   - Classification reports for both models
+
+3. In `./models/`:
+   - `logistic_model.pkl`
+   - `rfc_model.pkl`
+
+4. In `./logs/`:
+   - `churn_library.log` containing all test results and execution logs
+
+## Testing
+
+The testing framework includes tests for:
+- Data import
+- EDA functionality
+- Feature engineering
+- Model training and evaluation
+
+To run tests and check the logs:
 ```bash
-autopep8 --in-place --aggressive --aggressive churn_script_logging_and_tests.py
-autopep8 --in-place --aggressive --aggressive churn_library.py
+python churn_script_logging_and_tests.py
+cat ./logs/churn_library.log  # View test results
 ```
-- **Static Code Analysis:** Check for errors and improvements using **Pylint**.
-```bash
-pylint churn_library.py
-pylint churn_script_logging_and_tests.py
-```
-I should aim for a **Pylint score above 7**.
 
-## Project Expectations
-By the end of the project, I should have completed these files:
-1. `churn_library.py` – Implements functions for churn prediction
-2. `churn_script_logging_and_tests.py` – Logs errors and contains test cases
-3. `README.md` – Provides project overview and usage instructions
+## Author
+Kashad Turner-Warren
 
-I will make sure all **functions and files have proper docstrings**, explaining:
-- **Purpose of the function/file**
-- **Input and output parameters**
-- **Author and date of creation**
-
-Happy coding! 🚀
-
+## License
+This project is licensed under the MIT License - see the LICENSE file for details
