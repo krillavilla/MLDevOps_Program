@@ -43,21 +43,24 @@ models/*.pkl
 images/eda/*
 images/results/*
 
-# Keep directory structure
-!logs/.gitkeep
-!models/.gitkeep
-!images/eda/.gitkeep
-!images/results/.gitkeep
-
-# Large data files
+# Data files
+data/*
 *.csv
 *.xlsx
 *.xls
 *.pkl
 *.h5
 
-# Exceptions
+# Exceptions - Files to include
 !data/bank_data.csv
+!logs/.gitkeep
+!models/.gitkeep
+!images/eda/.gitkeep
+!images/results/.gitkeep
+!logs/*.log
+!models/*.pkl
+!images/eda/*
+!images/results/*
 
 # Additional sensitive files
 *config.json

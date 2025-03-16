@@ -1,0 +1,28 @@
+2025-03-16 00:37:55,578 - churn_library_tests - INFO - Starting tests...
+2025-03-16 00:37:55,609 - churn_library_tests - INFO - Testing import_data: SUCCESS
+2025-03-16 00:37:55,610 - churn_library_tests - INFO - Testing import_data: DataFrame has rows and columns
+2025-03-16 00:37:57,425 - churn_library - INFO - EDA performed successfully
+2025-03-16 00:37:57,426 - churn_library_tests - INFO - Testing perform_eda: SUCCESS
+2025-03-16 00:37:57,450 - churn_library - INFO - Encoded Gender as Gender_Churn
+2025-03-16 00:37:57,451 - churn_library - INFO - Encoded Education_Level as Education_Level_Churn
+2025-03-16 00:37:57,453 - churn_library - INFO - Encoded Marital_Status as Marital_Status_Churn
+2025-03-16 00:37:57,454 - churn_library - INFO - Encoded Income_Category as Income_Category_Churn
+2025-03-16 00:37:57,456 - churn_library - INFO - Encoded Card_Category as Card_Category_Churn
+2025-03-16 00:37:57,456 - churn_library_tests - INFO - Testing encoder_helper: SUCCESS
+2025-03-16 00:37:57,481 - churn_library - INFO - Encoded Gender as Gender_Churn
+2025-03-16 00:37:57,482 - churn_library - INFO - Encoded Education_Level as Education_Level_Churn
+2025-03-16 00:37:57,484 - churn_library - INFO - Encoded Marital_Status as Marital_Status_Churn
+2025-03-16 00:37:57,486 - churn_library - INFO - Encoded Income_Category as Income_Category_Churn
+2025-03-16 00:37:57,488 - churn_library - INFO - Encoded Card_Category as Card_Category_Churn
+2025-03-16 00:37:57,491 - churn_library - INFO - Feature engineering completed successfully
+2025-03-16 00:37:57,491 - churn_library_tests - INFO - Testing perform_feature_engineering: SUCCESS
+2025-03-16 00:37:57,516 - churn_library - INFO - Encoded Gender as Gender_Churn
+2025-03-16 00:37:57,518 - churn_library - INFO - Encoded Education_Level as Education_Level_Churn
+2025-03-16 00:37:57,519 - churn_library - INFO - Encoded Marital_Status as Marital_Status_Churn
+2025-03-16 00:37:57,521 - churn_library - INFO - Encoded Income_Category as Income_Category_Churn
+2025-03-16 00:37:57,523 - churn_library - INFO - Encoded Card_Category as Card_Category_Churn
+2025-03-16 00:37:57,526 - churn_library - INFO - Feature engineering completed successfully
+2025-03-16 00:42:32,055 - churn_library - INFO - Models and scaler saved successfully
+2025-03-16 00:42:33,046 - churn_library - INFO - Model training and evaluation completed successfully
+2025-03-16 00:42:33,046 - churn_library_tests - INFO - Testing train_models: SUCCESS
+2025-03-16 00:42:33,046 - churn_library_tests - INFO - All tests completed successfully!
