@@ -1,0 +1,3 @@
+[submodule "Build-ML-Pipeline_for_Short-Term_Rental_Prices"]
+	path = Build-ML-Pipeline_for_Short-Term_Rental_Prices
+	url = https://github.com/krillavilla/Build-ML-Pipeline_for_Short-Term_Rental_Prices.git
