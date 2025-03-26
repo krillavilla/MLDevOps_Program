@@ -3,5 +3,6 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Build-ML-Pipeline_for_Short-Term_Rental_Prices" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ML_Model_FastAPI_Deployment" vcs="Git" />
   </component>
 </project>

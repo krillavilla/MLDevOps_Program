@@ -1,4 +1,93 @@
-# Weights & Biases
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Distribution / packaging
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# MLOps specific
+artifacts/
 wandb/
 wandb_test/
+mlruns/
+outputs/
+random_forest_dir/
+multirun/
+
+# Data files
+*.csv
+*.xlsx
+*.xls
+*.pkl
+*.h5
+
+# Logs
 *.log
+
+# Sensitive files
+*config.json
+*secrets*
+*.pem
+*.key
+*.cert
+*credential*
+.env*
+.aws/
+
+# Keep specific files (if needed in any subproject)
+!**/data/.gitkeep
+!**/logs/.gitkeep
+!**/models/.gitkeep
+!**/images/**/.gitkeep
