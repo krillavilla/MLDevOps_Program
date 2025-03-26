@@ -1,0 +1,16 @@
+{"time":"2025-03-16T09:39:11.344749791-07:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/krillavilla/Documents/MLDevOps_Program/wandb/run-20250316_093911-nk0tqtif/logs/debug-core.log"}
+{"time":"2025-03-16T09:39:11.450398756-07:00","level":"INFO","msg":"created new stream","id":"nk0tqtif"}
+{"time":"2025-03-16T09:39:11.450483563-07:00","level":"INFO","msg":"stream: started","id":"nk0tqtif"}
+{"time":"2025-03-16T09:39:11.450566225-07:00","level":"INFO","msg":"writer: Do: started","stream_id":"nk0tqtif"}
+{"time":"2025-03-16T09:39:11.45061313-07:00","level":"INFO","msg":"handler: started","stream_id":"nk0tqtif"}
+{"time":"2025-03-16T09:39:11.450757351-07:00","level":"INFO","msg":"sender: started","stream_id":"nk0tqtif"}
+{"time":"2025-03-16T09:39:11.885709646-07:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-16T09:39:12.293488761-07:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-16T09:39:12.294931854-07:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-16T09:39:13.275499691-07:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact artifact_test","runtime_seconds":0.906073903}],"total_operations":1}}
+{"time":"2025-03-16T09:39:13.665756888-07:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-16T09:39:13.877250503-07:00","level":"INFO","msg":"stream: closing","id":"nk0tqtif"}
+{"time":"2025-03-16T09:39:13.877318605-07:00","level":"INFO","msg":"handler: closed","stream_id":"nk0tqtif"}
+{"time":"2025-03-16T09:39:13.877355183-07:00","level":"INFO","msg":"writer: Close: closed","stream_id":"nk0tqtif"}
+{"time":"2025-03-16T09:39:13.877418062-07:00","level":"INFO","msg":"sender: closed","stream_id":"nk0tqtif"}
+{"time":"2025-03-16T09:39:13.877502677-07:00","level":"INFO","msg":"stream: closed","id":"nk0tqtif"}
