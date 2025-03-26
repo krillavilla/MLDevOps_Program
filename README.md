@@ -36,7 +36,7 @@ I'm passionate about solving real-world problems in cybersecurity and automation
 
 ### 2. Customer Churn Prediction System
 **Status:** ✅ Completed  
-**GitHub:** [Repo](link-to-repo)
+**GitHub:** [Repo](https://github.com/krillavilla/MLDevOps_Program/tree/main/Predict_Customer_Churn)
 
 **Highlights:**
 - Refactored an exploratory notebook into a clean, modular Python package
