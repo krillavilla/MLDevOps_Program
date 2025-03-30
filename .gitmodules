@@ -4,3 +4,6 @@
 [submodule "Deploying_MLmodel_CloudApp_using_FastAPI"]
 	path = Deploying_MLmodel_CloudApp_using_FastAPI
 	url = https://github.com/krillavilla/Deploying_MLmodel_CloudApp_using_FastAPI.git
+[submodule "Dynamic_Risk_Assesment_System"]
+	path = Dynamic_Risk_Assesment_System
+	url = https://github.com/krillavilla/Dynamic_Risk_Assesment_System.git
