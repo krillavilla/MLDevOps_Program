@@ -4,3 +4,6 @@
 [submodule "ML_Model_FastAPI_Deployment"]
 	path = ML_Model_FastAPI_Deployment
 	url = https://github.com/krillavilla/Deploying_MLmodel_CloudApp_using_FastAPI.git
+[submodule "Deploying_MLmodel_CloudApp_using_FastAPI"]
+	path = Deploying_MLmodel_CloudApp_using_FastAPI
+	url = https://github.com/krillavilla/Deploying_MLmodel_CloudApp_using_FastAPI.git
