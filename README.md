@@ -72,17 +72,6 @@ I'm passionate about solving real-world problems in cybersecurity and automation
 - Monitors model drift and automates retraining via CronJobs
 - Emphasizes clean modular design and automation
 
-**Workspace Layout:**
-- `/sourcedata/` - raw input data for model training
-- `/ingesteddata/` - deduplicated data used for training
-- `/models/` - stored pickle models
-- `/production_deployment/` - final deployed assets
-- `/testdata/` - used to validate and evaluate models
-
-**Scripts Included:**
-- `training.py`, `scoring.py`, `deployment.py`, `ingestion.py`
-- `diagnostics.py`, `reporting.py`, `app.py`, `wsgi.py`, `apicalls.py`, `fullprocess.py`
-
 **Optional Kubernetes Deployment:**
 - `deployment.yaml`, `service.yaml`, `cronjob.yaml`, `configmap.yaml`
 - Automate deployment via `kubectl` and Docker images
