@@ -4,7 +4,7 @@ Welcome! I'm Kashad Turner-Warren, and this is my personal portfolio built throu
 
 ---
 
-## 🎯 Program Focus & Goals
+## 🌟 Program Focus & Goals
 
 This program sharpened my ability to:
 - Deploy ML models in production environments without relying solely on cloud tools like SageMaker.
@@ -49,7 +49,7 @@ I'm passionate about solving real-world problems in cybersecurity and automation
 ---
 
 ### 3. ML Model FastAPI Deployment on Heroku
-**Status:** ✅ Pending  
+**Status:** ✅ Completed  
 **GitHub:** [Repo](https://github.com/krillavilla/Deploying_MLmodel_CloudApp_using_FastAPI)
 
 **Highlights:**
@@ -62,6 +62,37 @@ I'm passionate about solving real-world problems in cybersecurity and automation
 
 ---
 
+### 4. Dynamic Risk Assessment System (Capstone)
+**Status:** 🚧 In Progress  
+**GitHub:** [Repo](https://github.com/krillavilla/Dynamic_Risk_Assesment_System)
+
+**Highlights:**
+- Developed ingestion, training, scoring, and deployment scripts
+- Built a FastAPI-based service to expose API endpoints
+- Monitors model drift and automates retraining via CronJobs
+- Emphasizes clean modular design and automation
+
+**Workspace Layout:**
+- `/sourcedata/` - raw input data for model training
+- `/ingesteddata/` - deduplicated data used for training
+- `/models/` - stored pickle models
+- `/production_deployment/` - final deployed assets
+- `/testdata/` - used to validate and evaluate models
+
+**Scripts Included:**
+- `training.py`, `scoring.py`, `deployment.py`, `ingestion.py`
+- `diagnostics.py`, `reporting.py`, `app.py`, `wsgi.py`, `apicalls.py`, `fullprocess.py`
+
+**Optional Kubernetes Deployment:**
+- `deployment.yaml`, `service.yaml`, `cronjob.yaml`, `configmap.yaml`
+- Automate deployment via `kubectl` and Docker images
+- Hourly retraining scheduled with `CronJob`
+- K8s setup supports scalability and API monitoring
+
+**Tools:** Docker, Kubernetes, CronJob, FastAPI, Python, scikit-learn
+
+---
+
 ## 🧠 Skills & Tech Stack
 
 ### MLOps & DevOps
@@ -70,6 +101,7 @@ I'm passionate about solving real-world problems in cybersecurity and automation
 - Experiment tracking & model versioning
 - DVC for data and model reproducibility
 - Containerization (Docker)
+- Kubernetes & CronJobs (for optional deployment)
 - Heroku cloud deployment
 
 ### ML Engineering
